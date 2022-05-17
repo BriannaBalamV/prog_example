@@ -7,7 +7,7 @@ int main (){
 	printf ("What time it is? \n");
     scanf ("%d", &time);
     
-	if (time >=00&&time <= 11){
+	if (time >=01&&time <= 11){
 		printf ("Good morning \n");
 	} 
 	
