@@ -4,11 +4,9 @@ using namespace std;
 
 int main(){
 	float balance = 1000;
-//	int menu;
 	int action;
 	int amount;
-	int subAction;
-	
+
 	cout<< "Welcome to your favorite bank \n"<<endl;
 	cout<< "Your current balance is: \n"<<balance<<endl;
 	cout<< "What do you want to do? \n"<<endl;
@@ -24,9 +22,6 @@ int main(){
 			cout<<"Successful operation :) \n"<<endl;
 			cout<<"Your current balance is: \n"<<1000+amount<<endl;
 			
-//			cout<<"Do you want to do another action? \n"<<endl;
-			
-			return 0;
 	}
 
 	switch (action){
@@ -40,7 +35,6 @@ int main(){
 			}else{
 				cout<<"Insufficient balance :( \n"<<endl;
 			}
-			return 0;
 	}
-	
+	return 0;
 }
