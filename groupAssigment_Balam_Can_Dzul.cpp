@@ -92,6 +92,8 @@ void most_repeated(){
 		}
 	}
 	cout<<"The most repeated number is: "<<mostRepeated<<endl;
+	cout<<"The frequency of the most repeated number is: "<<maxFrequency<<endl;
+	
 }
 
 int main(){
