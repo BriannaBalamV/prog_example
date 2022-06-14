@@ -9,7 +9,7 @@ int main(){
 	cout<<"Enter the number of elements:";
 	cin>>n;
 	
-	cout<<"1";
+	//cout<<"1";
 	
 	for(int i=1; i<n; i++){
 		z = x+y;
