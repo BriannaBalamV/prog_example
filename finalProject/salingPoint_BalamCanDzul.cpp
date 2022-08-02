@@ -290,7 +290,7 @@ int saling(){//saling interface
 				cout<<"\n Your change is "<<change;				
 				cout<<"\n Wait a moment, we are printing your ticket \n"<<endl;
 				
-			}else if(paymentAmount > grandTotal){//if the amount is equal to the total price
+			}else if(paymentAmount =  grandTotal){//if the amount is equal to the total price
 				
 				cout<<"\n Wait a moment, we are printing your ticket \n"<<endl;
 				
